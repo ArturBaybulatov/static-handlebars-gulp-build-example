@@ -1,13 +1,17 @@
-### test-task-frontend
+### frontend-build-example
 
-Build with Gulp:
+##### Usage
+
+Node.js with Gulp are required.
+
+Install dependencies:
+
+```
+npm install
+```
+
+and build:
 
 ```
 gulp build
-```
-
-Automatic rebuild:
-
-```
-gulp build --watch
 ```
