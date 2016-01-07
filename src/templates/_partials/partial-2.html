@@ -1,0 +1,11 @@
+<h3>This is the "bar" partial</h3>
+
+<ul>
+  {{#each stuff}}
+    {{#if (gte @index 3)}}
+      <li>{{upcase this}}</li>
+    {{else}}
+      <li>{{this}}</li>
+    {{/if}}
+  {{/each}}
+</ul>

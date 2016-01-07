@@ -1,0 +1,11 @@
+<h3 class='primary'>This is the "foo" partial</h3>
+
+<ul>
+  {{#each things}}
+    {{#if (eq name 'c')}}
+      <li class='secondary'>name: {{name}}, value: {{upcase value}}</li>
+    {{else}}
+      <li>name: {{name}}, value: {{value}}</li>
+    {{/if}}
+  {{/each}}
+</ul>
